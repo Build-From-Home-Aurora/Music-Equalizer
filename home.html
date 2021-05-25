@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+{% block content %}
+    <div class = "home">
+        <div class="container">
+            <div class = "col-lg-12 col-md-8 col-sm-3 col-xs-2">
+                <image src="{{url_for('static',filename = 'bck.jpg')}}"  id="img"></image>
+                
+
+            </div>
+            <div class = "col-12">
+                <h2>Happy Rhythem Of Life</h2>
+                <h5><i>Visualise Music</i></h5><br>
+                <a href="/signup" role="button" class="btn pmd-btn-raised pmd-ripple-effect btn-info">Upload Music</a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+{% endblock content %}
